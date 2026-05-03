@@ -1,0 +1,19 @@
+{
+  "name": "juegos-mesa-api",
+  "version": "1.0.0",
+  "description": "API REST para gestionar una colección de juegos de mesa",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  }
+}
